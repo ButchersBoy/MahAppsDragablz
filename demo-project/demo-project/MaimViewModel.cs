@@ -13,6 +13,7 @@ namespace demo_project
 
         public MaimViewModel()
         {
+            CurrentDisplayedView=new HomeView();
         }
 
 
