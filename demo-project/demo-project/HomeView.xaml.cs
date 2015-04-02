@@ -12,19 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using MahApps.Metro.Controls;
 
 namespace demo_project
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour HomeView.xaml
     /// </summary>
-    public partial class MainWindow : MetroWindow
+    public partial class HomeView : UserControl
     {
-        public MainWindow()
+        public HomeView()
         {
             InitializeComponent();
-            DataContext = new MaimViewModel();
         }
     }
 }
